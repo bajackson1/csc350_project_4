@@ -14,6 +14,7 @@ GitHub repository: `https://github.com/bajackson1/csc350_project_4.git`
 - `src/reporting.py`: final markdown report generation
 - `Project_4_Presentation.pdf`: project presentation slides
 - `outputs/`: deliverable paper, markdown report, figures, and tables
+- `requirements.txt`: Python package versions used for reproduction
 
 The dataset is intentionally not included in this submission folder.
 
@@ -41,7 +42,13 @@ Downloads/
 
 1. Place `Project_4_Adom_Agas_Jackson_Morrissey/` in the same parent directory as either `loneliness_data/` or the extracted `Participant_*` folders
 2. Open a terminal in `Project_4_Adom_Agas_Jackson_Morrissey/`
-3. Run:
+3. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run:
 
 ```bash
 python run_analysis.py
@@ -61,11 +68,4 @@ The final paper PDF included for submission is:
 
 ## Required Python Packages
 
-This project uses:
-
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
-- `xgboost`
+This project uses the package versions listed in `requirements.txt`.
