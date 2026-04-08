@@ -198,8 +198,6 @@ Taken together, the feature rankings suggest that loneliness in this dataset is 
 ## Reproducibility Notes
 
 - Main script: `run_analysis.py`
-- Generated report: `outputs/Project_4_Deliverable.md`
 - Tables: `outputs/tables/`
 - Figures: `outputs/figures/`
 """
-    (OUTPUT_DIR / "Project_4_Deliverable.md").write_text(report)
