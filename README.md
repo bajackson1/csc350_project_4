@@ -13,7 +13,7 @@ GitHub repository: `https://github.com/bajackson1/csc350_project_4.git`
 - `src/modeling.py`: feature matrix creation, model fitting, evaluation, and importance extraction
 - `src/reporting.py`: final markdown report generation
 - `Project_4_Presentation.pdf`: project presentation slides
-- `outputs/`: final report, figures, and tables
+- `outputs/`: deliverable paper, markdown report, figures, and tables
 
 The dataset is intentionally not included in this submission folder.
 
@@ -54,6 +54,10 @@ Running the script will regenerate:
 - `outputs/Project_4_Deliverable.md`
 - `outputs/tables/*.csv`
 - `outputs/figures/*.png`
+
+The final paper PDF included for submission is:
+
+- `outputs/Project_4_Deliverable_Paper.pdf`
 
 ## Required Python Packages
 
