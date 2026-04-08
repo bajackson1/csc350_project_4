@@ -23,7 +23,7 @@ Potential research applications include early identification of elevated lonelin
   - EMA present for 39 participants
   - UCLA end survey present for 39 participants
 
-![Dataset Completeness](./outputs/figures/eda_modality_completeness.png)
+![Dataset Completeness](./figures/eda_modality_completeness.png)
 
 ## Target Definition
 
@@ -32,7 +32,7 @@ Potential research applications include early identification of elevated lonelin
 - Median UCLA threshold: 47.00
 - Class distribution: low = 18, high = 21
 
-![UCLA Target Distribution](./outputs/figures/eda_ucla_distribution.png)
+![UCLA Target Distribution](./figures/eda_ucla_distribution.png)
 
 ## Data Preprocessing
 
@@ -44,9 +44,9 @@ Participant-level features were created by:
 4. Collapsing daily features into 28-day participant means.
 5. Incorporating multimodal survey summary features (EMA, PSS, and PHQ-9) alongside passive and wearable measures to maximize predictive performance within the assignment scope.
 
-![Core Correlations](./outputs/figures/eda_core_correlations.png)
+![Core Correlations](./figures/eda_core_correlations.png)
 
-![Missingness](./outputs/figures/eda_missingness.png)
+![Missingness](./figures/eda_missingness.png)
 
 ## ML Methods
 
@@ -68,11 +68,11 @@ Train/test split summary:
 | SVM            | 0.5      | 0.5       | 1.0    | 0.6667 | 0.1875  | 0.6993     |
 | Neural Network | 0.5      | 0.5       | 1.0    | 0.6667 | 0.4375  | 0.6993     |
 
-![Model Comparison](./outputs/figures/model_comparison.png)
+![Model Comparison](./figures/model_comparison.png)
 
-![ROC Curves](./outputs/figures/model_roc_curves.png)
+![ROC Curves](./figures/model_roc_curves.png)
 
-![F1 Score Comparison](./outputs/figures/model_f1_scores.png)
+![F1 Score Comparison](./figures/model_f1_scores.png)
 
 The best-performing model on the held-out test set was Random Forest. It achieved an F1 score of 0.8889, accuracy of 0.8750, and ROC-AUC of 0.7500. Its mean 5-fold cross-validated F1 score was 0.7569, which suggests the result is promising but still sensitive to sample size.
 
@@ -87,7 +87,7 @@ The best-performing model on the held-out test set was Random Forest. It achieve
 - Mean 5-fold cross-validated F1: 0.7569
 - Final model parameters: `{'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'class_weight': 'balanced'}`
 
-![Best Model Confusion Matrix](./outputs/figures/best_model_confusion_matrix.png)
+![Best Model Confusion Matrix](./figures/best_model_confusion_matrix.png)
 
 ## Discussion
 
@@ -107,7 +107,7 @@ Taken together, the feature rankings suggest that loneliness in this dataset is 
 | ema_negative_mean | 0.074157   |
 | ema_connect_mean  | 0.057604   |
 
-![Random Forest Feature Importance](./outputs/figures/random_forest_feature_importance.png)
+![Random Forest Feature Importance](./figures/random_forest_feature_importance.png)
 
 ### XGBoost Top Predictors
 
@@ -119,7 +119,7 @@ Taken together, the feature rankings suggest that loneliness in this dataset is 
 | ema_connect_mean  | 0.066128   |
 | ema_isolate_mean  | 0.058048   |
 
-![XGBoost Feature Importance](./outputs/figures/xgboost_feature_importance.png)
+![XGBoost Feature Importance](./figures/xgboost_feature_importance.png)
 
 ## Limitations
 
