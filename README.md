@@ -12,6 +12,7 @@ GitHub repository: `https://github.com/bajackson1/csc350_project_4.git`
 - `src/data_processing.py`: loading, aggregation, preprocessing, and EDA output generation
 - `src/modeling.py`: feature matrix creation, model fitting, evaluation, and importance extraction
 - `src/reporting.py`: final markdown report generation
+- `Project_4_Presentation.pdf`: project presentation slides
 - `outputs/`: final report, figures, and tables
 
 The dataset is intentionally not included in this submission folder.
@@ -50,7 +51,7 @@ python run_analysis.py
 
 Running the script will regenerate:
 
-- `outputs/project4_report.md`
+- `outputs/Project_4_Deliverable.md`
 - `outputs/tables/*.csv`
 - `outputs/figures/*.png`
 
