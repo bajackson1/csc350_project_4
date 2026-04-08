@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.log
+outputs/project4_report.html
