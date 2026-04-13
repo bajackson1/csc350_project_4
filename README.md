@@ -2,10 +2,6 @@
 
 Team Members: Jacorian Adom, Aiden Agas, Brooks Jackson, Thomas Morrissey
 
-## Repository
-
-GitHub repository: `https://github.com/bajackson1/csc350_project_4.git`
-
 ## Contents
 - `run_analysis.py`: entry point for the project
 - `src/common.py`: shared imports, constants, and utility helpers
